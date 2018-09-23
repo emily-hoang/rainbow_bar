@@ -1,0 +1,39 @@
+<style>
+  div {
+    height: 400px;
+    width: 70%;
+    background: black;
+    margin: 50px auto;
+    border-radius: 5px;
+  }
+
+  #rect {
+    animation-name: color;
+    animation-duration: 10s; 
+    animation-iteration-count: infinite;
+  }
+  @keyframes color {
+    0% {
+      background-color: #ff66ff;
+    }
+    15% {
+      background-color: #993399;
+    }
+    30% {
+      background-color: blue;
+    }
+    45% {
+      background-color: green;
+    }
+    60% {
+      background-color: yellow;
+    }
+    75% {
+      background-color: #ff6600;
+    }
+    100% {
+      background-color: red;
+    }
+  }
+</style>
+<div id="rect"></div>

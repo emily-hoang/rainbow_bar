@@ -1,0 +1,1 @@
+This is how you create a fading moon in css
